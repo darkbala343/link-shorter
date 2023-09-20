@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+#button {
+  width: 15%;
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#output a {
+  color: #007bff;
+  text-decoration: none;
+}
