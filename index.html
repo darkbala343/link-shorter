@@ -1,15 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
 </head>
 <body>
-  <h1>Website Link Shortener</h1>
-  <div id="container">
-    <p>Enter a long URL to make it shorter:</p>
-    <input id="input" type="text" placeholder="https://www.example.com/...">
-    <button id="button" onclick="shorten()">Shorten</button>
-    <p id="output"></p>
-  </div>
-  <script src="app.js"></script>
+
+    <!-- Your HTML input and output elements -->
+    <input type="text" id="input" placeholder="Enter URL">
+    <button onclick="shorten()">Shorten URL</button>
+    <div id="output"></div>
+
+    <!-- Your JavaScript code -->
+    <script src="app.js"></script>
+
 </body>
 </html>
